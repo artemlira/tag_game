@@ -1,0 +1,29 @@
+.field {
+   position: relative;
+   border: 5px solid black;
+   width: 400px;
+   height: 400px;
+   margin: 50px auto;
+   background-color: rgb(139, 156, 105);
+   box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.788);
+   box-sizing: border-box;
+}
+
+.cell {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: all 0.5s;
+
+   box-sizing: border-box;
+   width: 25%;
+   height: 25%;
+
+   border: 3px solid rgb(159, 159, 216);
+   border-radius: 20px;
+   padding: 10px;
+   font-size: 50px;
+   text-align: center;
+   background-color: #c6c6c6;
+   box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.788);
+}
