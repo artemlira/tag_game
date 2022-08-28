@@ -1,9 +1,7 @@
 
 let cells = [...document.querySelectorAll('.cell')];
 
-cells.sort();
-// v[Math.floor(Math.random() * 16)];
-
+cells.sort(() => Math.random() - 0.5);
 
 function moveToEmptyPlace(cell) {
    const newX = emptyX;
@@ -59,10 +57,6 @@ function getSuccessRate(statistic) {
          count++;
       }
    }
-   // return count / statistic.length * 100
-   console.log(statistic.length);
-   console.log(count);
-   console.log(count / statistic.length * 100);
 }
 
 getSuccessRate(' ');

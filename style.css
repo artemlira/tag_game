@@ -1,9 +1,24 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: radial-gradient(red, blue);
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .field {
    position: relative;
    border: 5px solid black;
    width: 400px;
    height: 400px;
-   margin: 50px auto;
+
    background-color: rgb(139, 156, 105);
    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.788);
    box-sizing: border-box;
